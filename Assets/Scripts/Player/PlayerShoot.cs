@@ -26,6 +26,7 @@ public class PlayerShoot : MonoBehaviour
     void Fire()
     {
         animator.SetTrigger("shoot");
+        AudioManager.instance.Play("Shoot");
         GameObject go = Instantiate(bullet, bulletHole.position, bullet.transform.rotation);
         if(GetComponent<PlayerMovement>().isFacingRight )
         {

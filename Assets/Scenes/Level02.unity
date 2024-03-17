@@ -1712,65 +1712,86 @@ MonoBehaviour:
   m_GameObject: {fileID: 749628229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b537a5fabcf445c40a21aed9bf4d0eb3, type: 3}
+  m_Script: {fileID: 11500000, guid: c4f2978c1d86bac46a818870811a02d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: GameOver
-    clip: {fileID: 8300000, guid: 451beac854d19574db755da12da64081, type: 3}
-    mixer: {fileID: 24300002, guid: 6728820ee0cd6fc4eb70ed7f558e3b21, type: 2}
+  - name: Music
+    clip: {fileID: 8300000, guid: 07f391589664f4e85904fa28802b4aa8, type: 3}
+    mixer: {fileID: 0}
     volume: 1
     pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Coins
-    clip: {fileID: 8300000, guid: f02d48d6aa387ab4891eb3c1b8d5e5b3, type: 3}
-    mixer: {fileID: 24300002, guid: 6728820ee0cd6fc4eb70ed7f558e3b21, type: 2}
-    volume: 0.5
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Click
-    clip: {fileID: 8300000, guid: e25399cfb48812c47ad2caa6391cc221, type: 3}
-    mixer: {fileID: 24300002, guid: 6728820ee0cd6fc4eb70ed7f558e3b21, type: 2}
-    volume: 1
-    pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   - name: FirstJump
     clip: {fileID: 8300000, guid: d896dd379c457c544bd1e6b4348cc939, type: 3}
-    mixer: {fileID: 24300002, guid: 6728820ee0cd6fc4eb70ed7f558e3b21, type: 2}
+    mixer: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: SecondJump
     clip: {fileID: 8300000, guid: 8624073392e105949abbe5bd3f6e1eb3, type: 3}
-    mixer: {fileID: 24300002, guid: 6728820ee0cd6fc4eb70ed7f558e3b21, type: 2}
+    mixer: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: CheckPoint
-    clip: {fileID: 8300000, guid: 1db0dea281957cb4cadb386d619b4426, type: 3}
-    mixer: {fileID: 24300002, guid: 6728820ee0cd6fc4eb70ed7f558e3b21, type: 2}
+  - name: Coins
+    clip: {fileID: 8300000, guid: f02d48d6aa387ab4891eb3c1b8d5e5b3, type: 3}
+    mixer: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: e25399cfb48812c47ad2caa6391cc221, type: 3}
+    mixer: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 451beac854d19574db755da12da64081, type: 3}
+    mixer: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: LevelCompleted
     clip: {fileID: 8300000, guid: 2267f7d2af722a2439751461b02db717, type: 3}
-    mixer: {fileID: 24300002, guid: 6728820ee0cd6fc4eb70ed7f558e3b21, type: 2}
+    mixer: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: Music
-    clip: {fileID: 8300000, guid: 07f391589664f4e85904fa28802b4aa8, type: 3}
-    mixer: {fileID: 24300002, guid: 6728820ee0cd6fc4eb70ed7f558e3b21, type: 2}
-    volume: 0.5
+  - name: CheckPoint
+    clip: {fileID: 8300000, guid: 1db0dea281957cb4cadb386d619b4426, type: 3}
+    mixer: {fileID: 0}
+    volume: 1
     pitch: 1
-    loop: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossScream
+    clip: {fileID: 8300000, guid: 3c07835c7593f8d47a379e024ecf3db4, type: 3}
+    mixer: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 0fed45335f8729746ad728c1c2e79ceb, type: 3}
+    mixer: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 0}
+    mixer: {fileID: 0}
+    volume: 0
+    pitch: 0
+    loop: 0
     source: {fileID: 0}
 --- !u!1001 &804000915
 PrefabInstance:
